@@ -1,1 +1,1 @@
-docker-compose run --rm --entrypoint npm -w /usr/app web $@
+docker-compose run --rm --entrypoint npm -w /usr/app/express express $@
