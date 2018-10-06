@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    image: "node:7.7.2-alpine" 
+    command: node /usr/app/app.js
+    volumes:
+      - ./src:/usr/app/
+    ports:
+      - "3000:3000"

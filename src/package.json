@@ -1,0 +1,14 @@
+{
+  "name": "node-teste",
+  "version": "1.0.0",
+  "description": "teste",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robson Dantas",
+  "license": "ISC"
+}
